@@ -1,10 +1,12 @@
-var leftNavBlock = new FloatBlock({
+/*
+Usage:
+new FloatBlock({
 	block: '#floatNavBlock',
-	position: 'left',
 	topLimitBlock: '[data-floatBlock="topLimit"]',
 	bottomLimitBlock: '[data-floatBlock="bottomLimit"]',
 	aligningBlock: '[data-floatBlock="topLimit"]'
 });
+*/
 
 var FloatBlock = (function($, global){
     var defaultOptions = {},
